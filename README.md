@@ -37,3 +37,75 @@
 ```bash
 git clone https://github.com/【あなたのユーザー名】/minsei-app.git
 cd minsei-app
+2. 依存関係をインストール
+bash
+コードをコピーする
+npm install
+3. 開発サーバーを起動
+bash
+コードをコピーする
+npm run dev
+→ ブラウザで http://localhost:5173 にアクセス
+
+⚙️ 環境変数設定
+.env.local に以下を記載してください：
+
+bash
+コードをコピーする
+VITE_GOOGLE_CLIENT_ID=your_google_client_id
+VITE_OPENAI_API_KEY=your_openai_api_key
+🧠 主な機能
+名簿管理（登録・検索・フィルタ・ソート）
+
+活動履歴記録（音声入力・コピー共有）
+
+訪問予定管理（Googleカレンダー同期可）
+
+AIチャットによる検索・要約・提案
+
+Googleドライブ連携バックアップ
+
+詳細は docs/basic_design.md を参照。
+
+🧩 技術スタック
+フロントエンド: Vite + React + TypeScript
+
+スタイル: Tailwind CSS
+
+データ保存: localStorage / Google Drive
+
+AI連携: Gemini API / OpenAI API
+
+PWA: Service Worker + Manifest
+
+🗓 バージョン履歴
+最新バージョン：v1.5.9
+詳しくは CHANGELOG.md を参照。
+
+📄 ライセンス
+© 2025 LuckyFields.LLC. All Rights Reserved.
+
+yaml
+コードをコピーする
+
+---
+
+✅ このREADMEには以下が含まれます：
+- プロジェクト概要  
+- ドキュメントリンク（正しいパス）  
+- セットアップ手順  
+- 環境変数例  
+- 技術スタック  
+- 更新履歴リンク
+
+---
+
+🧭 次のステップ：
+1. この内容を **README.md に上書き保存**
+2. `Commit changes`（コミットメッセージ例：`update README with full documentation`）
+3. GitHubでプレビュー確認
+
+---
+
+実際に上書きする際にコピペで不具合が出ないよう、必要ならフォーマット済ファイル（.md）も生成して渡せます。  
+📄 **生成ファイルが欲しいですか？**
