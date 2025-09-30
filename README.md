@@ -85,27 +85,3 @@ PWA: Service Worker + Manifest
 📄 ライセンス
 © 2025 LuckyFields.LLC. All Rights Reserved.
 
-yaml
-コードをコピーする
-
----
-
-✅ このREADMEには以下が含まれます：
-- プロジェクト概要  
-- ドキュメントリンク（正しいパス）  
-- セットアップ手順  
-- 環境変数例  
-- 技術スタック  
-- 更新履歴リンク
-
----
-
-🧭 次のステップ：
-1. この内容を **README.md に上書き保存**
-2. `Commit changes`（コミットメッセージ例：`update README with full documentation`）
-3. GitHubでプレビュー確認
-
----
-
-実際に上書きする際にコピペで不具合が出ないよう、必要ならフォーマット済ファイル（.md）も生成して渡せます。  
-📄 **生成ファイルが欲しいですか？**
